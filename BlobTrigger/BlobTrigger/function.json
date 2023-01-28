@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "test-container/samples-workitems/{name}",
+      "connection": "MyStorageConnectionString"
+    }
+  ],
+  "scriptFile": "../dist/BlobTrigger/index.js"
+}
